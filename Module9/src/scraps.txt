@@ -1,0 +1,23 @@
+//		
+
+//		System.out.println(Math.round(Math.cos(90 * Math.PI/180)));
+//		System.out.println(Math.cos(Math.PI/2));
+		
+		
+	public void scalarMultiplication(double scalar) {
+		x *= scalar;
+		y *= scalar;
+		z *= scalar;
+	}
+	
+	
+//recursive fourQuarters
+//		System.out.println(
+//				MatrixOperations.rotateClockwise90DegreesOverAxisZ(
+//						MatrixOperations.rotateClockwise90DegreesOverAxisZ(
+//								MatrixOperations.rotateClockwise90DegreesOverAxisZ(
+//										MatrixOperations.rotateClockwise90DegreesOverAxisZ(vector)
+//								)
+//						)
+//				)
+//				);
